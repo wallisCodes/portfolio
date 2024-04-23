@@ -1,12 +1,10 @@
-// import { Fragment } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import '../src/index.css'
 
 const navigation = [
   { name: 'About', href: '#about', current: true },
-  { name: 'Stack', href: '#stack', current: false },
   { name: 'Projects', href: '#projects', current: false },
+  { name: 'Stack', href: '#stack', current: false },
   { name: 'Contact', href: '#contact', current: false },
 ]
 
