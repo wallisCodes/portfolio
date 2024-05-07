@@ -1,46 +1,17 @@
 import { useState } from 'react';
-
-//TODO: import image data from an images.json file
-const images = [
-    {
-        id: 1,
-        src: "../src/assets/images/tennis.jpeg",
-        alt_text: "tennis photo",
-        activity: "playing tennis",
-    },
-    {
-        id: 2,
-        src: "../src/assets/images/hiking.jpg",
-        alt_text: "hiking photo",
-        activity: "hiking",
-    },
-    {
-        id: 3,
-        src: "../src/assets/images/sup-cropped.jpg",
-        alt_text: "stand-up paddleboarding photo",
-        activity: "paddleboarding",
-    },
-    {
-        id: 4,
-        src: "../src/assets/images/skiing-cropped.jpeg",
-        alt_text: "skiing photo",
-        activity: "skiing",
-    }
-]
-
+import hobbies from "./Hobbies"
 
 export default function Landing() {
-    let [imageIndex, setImageIndex] = useState(0);
-    let resetIndex = imageIndex >= images.length - 1;
+    let [hobbyIndex, setHobbyIndex] = useState(0);
+    let resetIndex = hobbyIndex >= hobbies.length - 1;
     const carouselSpeed = 5000; // Time in ms before auto-switching image
-    var currentInterval;
 
-    function nextImage() {
-        !resetIndex ? setImageIndex(imageIndex + 1) : setImageIndex(0);
+    function nextHobby() {
+        !resetIndex ? setHobbyIndex(hobbyIndex + 1) : setHobbyIndex(0);
     }
 
-    currentInterval = setInterval(() => {
-        nextImage();
+    setInterval(() => {    
+        nextHobby();
     }, carouselSpeed);
     
     return (
@@ -63,12 +34,12 @@ export default function Landing() {
                         </h2>
                         <h2 className="text-xl sm:text-2xl text-primary-dark text-center sm:text-left font-bold py-1 sm:py-2">Outside of work you'll find me
                             <span className="text-white">
-                                {" " + images[imageIndex].activity + "."}
+                                {" " + hobbies[hobbyIndex].activity + "."}
                             </span>
                         </h2>
                     </div>
                     <div className="w-full sm:w-1/2 py-10">
-                        <img className="rounded-full w-4/5 h-auto mx-auto sm:mr-0 shadow-2xl" src={images[imageIndex].src} alt={images[imageIndex].alt_text}/>
+                        <img className="rounded-full w-4/5 h-auto mx-auto sm:mr-0 shadow-2xl" src={hobbies[hobbyIndex].img} alt={hobbies[hobbyIndex].alt_text}/>
                     </div>
                 </div>
             </section>
