@@ -9,7 +9,7 @@ export default [
         id: 2,
         img: "../src/assets/images/hiking.jpg",
         alt_text: "hiking photo",
-        activity: "hiking",
+        activity: "hiking (candidly)",
     },
     {
         id: 3,

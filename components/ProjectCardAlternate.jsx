@@ -1,8 +1,7 @@
-export default function ProjectCard(props) {
+export default function ProjectCardAlternate(props) {
     return (
         <>
-            <div className="sm:flex sm:border-2 sm:border-white sm:rounded-md p-2 sm:p-4 md:p-6 my-2 sm:my-4 md:my-6">
-                <img className="rounded-md sm:w-1/2 h-auto mx-auto" width="583" height="450" src={props.img_path} alt={props.img_alt}/>
+            <div className="sm:flex sm:border sm:border-white sm:rounded-md p-2 sm:p-4 md:p-6 my-2 sm:my-4 md:my-6">
                 <div className="text-white sm:w-1/2 py-2 sm:px-6 lg:px-8">
                     <h2 className="text-xl sm:text-3xl font-bold">{props.title}</h2>
                     <p className="sm:text-xl text-alt-light italic mb-1 sm:mb-2 md:mb-4">{props.tagline}</p>
@@ -22,6 +21,7 @@ export default function ProjectCard(props) {
                         <a href={props.github_url} target="_blank" className="text-lg px-2 sm:px-4 py-1 sm:py-2 border border-white rounded-md">GitHub</a>
                     </div>
                 </div>
+                <img className="rounded-md sm:w-1/2 h-auto mx-auto" width="583" height="450" src={props.img_path} alt={props.img_alt}/>
             </div>
         </>
     )

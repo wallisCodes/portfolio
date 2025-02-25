@@ -2,9 +2,10 @@ import ProjectCard from "./ProjectCard";
 import project_data from "./ProjectData";
 
 export default function Projects() {
-    const ProjectCards = project_data.map( data => {
+    const ProjectCards = project_data.map( (data, index) => {
         return (
             <ProjectCard
+                key={index}
                 img_path={data.img_path}
                 img_alt={data.img_alt}
                 title={data.title}
@@ -27,7 +28,7 @@ export default function Projects() {
         <>
             <section id="projects" className="bg-primary">
                 <div className="max-w-7xl p-2 sm:p-6 lg:p-8 mx-auto">
-                    <h1 className="text-3xl sm:text-5xl text-white text-center sm:text-left font-bold py-2 sm:py-4">Projects</h1>
+                    <h1 className="text-3xl sm:text-7xl text-white text-center sm:text-left font-bold py-2 sm:py-4">Projects</h1>
                     {ProjectCards}
                 </div>  
             </section>

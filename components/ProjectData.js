@@ -1,5 +1,46 @@
 export default [
     {
+        "img_path": "../src/assets/images/Tennis-scheduler-form-cropped.png",
+        "img_alt": "Tennis scheduler screenshot",
+        "title": "Tennis Scheduler",
+        "tagline": "Tennis scheduling tool for my local club",
+        "description_1": "It was my first time using both react and tailwind for this project. The idea was to start with a simple portfolio website to learn the basics of these technologies before moving on to a more complex project.",
+        "description_2": "",
+        "icon_1_path": "../src/assets/icons/react.svg",
+        "icon_1_alt": "react logo",
+        "icon_2_path": "../src/assets/icons/tailwindcss.svg",
+        "icon_2_alt": "tailwind logo",
+        "live_url": "https://tennis-schedule.net",
+        "github_url": "https://github.com/wallisCodes/tennis-scheduler"
+    },
+    {
+        "img_path": "../src/assets/images/Racketlon-scorer.png",
+        "img_alt": "Racketlon scorer screenshot",
+        "title": "Racketlon Scorer",
+        "tagline": "Racketlon scoring tool",
+        "description_1": "It was my first time using both react and tailwind for this project. The idea was to start with a simple portfolio website to learn the basics of these technologies before moving on to a more complex project.",
+        "description_2": "",
+        "icon_1_path": "../src/assets/icons/react.svg",
+        "icon_1_alt": "react logo",
+        "icon_2_path": "../src/assets/icons/css.svg",
+        "icon_2_alt": "css logo",
+        "live_url": "https://walliscodes.github.io/table-tennis-scorer/",
+        "github_url": "https://github.com/wallisCodes/table-tennis-scorer"
+    },
+    {
+        "img_path": "../src/assets/images/Portfolio.png",
+        "img_alt": "Portfolio website screenshot",
+        "title": "Portfolio",
+        "tagline": "Website to showcase projects and skills",
+        "description_1": "It was my first time using both react and tailwind for this project. The idea was to start with a simple portfolio website to learn the basics of these technologies before moving on to a more complex project.",
+        "description_2": "",
+        "icon_1_path": "../src/assets/icons/react.svg",
+        "icon_1_alt": "react logo",
+        "icon_2_path": "../src/assets/icons/tailwindcss.svg",
+        "icon_2_alt": "tailwind logo",
+        "github_url": "https://github.com/wallisCodes/professional-portfolio"
+    },
+    {
         "img_path": "../src/assets/images/Avenue136-cropped.png",
         "img_alt": "Avenue136 hairdressing website screenshot",
         "title": "Avenue136",
@@ -14,18 +55,5 @@ export default [
         "icon_3_alt": "javascript logo",
         "live_url": "https://avenue136.co.uk/",
         "github_url": "https://github.com/wallisCodes/Avenue136"
-    },
-    {
-        "img_path": "../src/assets/images/Portfolio.png",
-        "img_alt": "Portfolio website screenshot",
-        "title": "Portfolio",
-        "tagline": "Website to showcase projects and skills",
-        "description_1": "It was my first time using both react and tailwind for this project. The idea was to start with a simple portfolio website to learn the basics of these technologies before moving on to a more complex project.",
-        "description_2": "",
-        "icon_1_path": "../src/assets/icons/react.svg",
-        "icon_1_alt": "react logo",
-        "icon_2_path": "../src/assets/icons/tailwindcss.svg",
-        "icon_2_alt": "tailwind logo",
-        "github_url": "https://github.com/wallisCodes/professional-portfolio"
-    }
+    }    
 ]
