@@ -1,6 +1,6 @@
 export default [
     {
-        "img_path": "../src/assets/images/Racketlon-scorer.png",
+        "img_path": "../src/assets/images/tRacketImage1-4x3.jpg",
         "img_alt": "Racketlon scorer screenshot",
         "title": "Racketlon Scorer",
         "tagline": "Racketlon scoring tool",
@@ -18,7 +18,7 @@ export default [
         "github_url": "https://github.com/wallisCodes/table-tennis-scorer"
     },
     {
-        "img_path": "../src/assets/images/Tennis-scheduler-form-cropped.png",
+        "img_path": "../src/assets/images/SchedulerImage1-4x3.jpg",
         "img_alt": "Tennis scheduler screenshot",
         "title": "Tennis Scheduler",
         "tagline": "Tennis scheduling tool for my local club",
@@ -36,7 +36,7 @@ export default [
         "github_url": "https://github.com/wallisCodes/tennis-scheduler"
     },
     {
-        "img_path": "../src/assets/images/Portfolio.png",
+        "img_path": "../src/assets/images/PortfolioImage1-4x3.jpg",
         "img_alt": "Portfolio website screenshot",
         "title": "Portfolio",
         "tagline": "Website to showcase projects and skills",
@@ -53,7 +53,7 @@ export default [
         "github_url": "https://github.com/wallisCodes/professional-portfolio"
     },
     {
-        "img_path": "../src/assets/images/Avenue136-cropped.png",
+        "img_path": "../src/assets/images/Avenue136Image1-4x3.jpg",
         "img_alt": "Avenue136 hairdressing website screenshot",
         "title": "Avenue136",
         "tagline": "Hairdressing website for local business",

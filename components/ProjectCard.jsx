@@ -9,18 +9,18 @@ export default function ProjectCard(props) {
                     <p className="sm:text-xl text-alt-light">{props.description_1}</p>
                     <p className="sm:text-xl text-alt-light">{props.description_2}</p>
 
-                    <div className="flex py-2 sm:py-6 lg:py-8 space-x-2">
-                        <img src={props.icon_1_path} width="50" height="50" alt={props.icon_1_alt}/>
-                        <img src={props.icon_2_path} width="50" height="50" alt={props.icon_2_alt}/>
+                    <div className="flex py-4 sm:py-6 lg:py-8 space-x-4">
+                        <img src={props.icon_1_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_1_alt}/>
+                        <img src={props.icon_2_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_2_alt}/>
                         {/* Only render extra project icons (3+) if necessary */}
-                        { props.icon_3_path && <img src={props.icon_3_path} width="50" height="50" alt={props.icon_3_alt}/> }
-                        { props.icon_4_path && <img src={props.icon_4_path} width="50" height="50" alt={props.icon_4_alt}/> }
+                        { props.icon_3_path && <img src={props.icon_3_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_3_alt}/> }
+                        { props.icon_4_path && <img src={props.icon_4_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_4_alt}/> }
                     </div>
 
-                    <div className="space-x-2 sm:space-x-4 lg:space-x-6">
+                    <div className="space-x-4 lg:space-x-6 mb-8">
                         {/* Only render live button if site has been deployed */}
-                        { props.live_url && <a href={props.live_url} target="_blank" className="text-2xl bg-primary-dark text-white hover:bg-primary-light p-2 px-4 sm:px-10 rounded-md">Visit Site</a> }
-                        <a href={props.github_url} target="_blank" className="text-2xl bg-primary-dark text-white hover:bg-primary-light p-2 px-4 sm:px-10 rounded-md">GitHub Repo</a>
+                        { props.live_url && <a href={props.live_url} target="_blank" className="text-lg sm:text-2xl bg-primary-dark text-white hover:bg-primary-light p-2 px-4 sm:px-10 rounded-md">Visit Site</a> }
+                        <a href={props.github_url} target="_blank" className="text-lg sm:text-2xl bg-primary-dark text-white hover:bg-primary-light p-2 px-4 sm:px-10 rounded-md">GitHub Repo</a>
                     </div>                    
                 </div>
             </div>
