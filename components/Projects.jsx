@@ -21,6 +21,8 @@ export default function Projects() {
                 icon_3_alt={data.icon_3_alt}
                 icon_4_path={data.icon_4_path}
                 icon_4_alt={data.icon_4_alt}
+                icon_5_path={data.icon_5_path}
+                icon_5_alt={data.icon_5_alt}
                 live_url={data.live_url}
                 github_url={data.github_url}
             />
@@ -46,6 +48,8 @@ export default function Projects() {
                     icon_3_alt={data.icon_3_alt}
                     icon_4_path={data.icon_4_path}
                     icon_4_alt={data.icon_4_alt}
+                    icon_5_path={data.icon_5_path}
+                    icon_5_alt={data.icon_5_alt}
                     live_url={data.live_url}
                     github_url={data.github_url}
                 />
@@ -68,6 +72,8 @@ export default function Projects() {
                     icon_3_alt={data.icon_3_alt}
                     icon_4_path={data.icon_4_path}
                     icon_4_alt={data.icon_4_alt}
+                    icon_5_path={data.icon_5_path}
+                    icon_5_alt={data.icon_5_alt}
                     live_url={data.live_url}
                     github_url={data.github_url}
                 />

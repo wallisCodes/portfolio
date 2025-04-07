@@ -15,6 +15,7 @@ export default function ProjectCard(props) {
                         {/* Only render extra project icons (3+) if necessary */}
                         { props.icon_3_path && <img src={props.icon_3_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_3_alt}/> }
                         { props.icon_4_path && <img src={props.icon_4_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_4_alt}/> }
+                        { props.icon_5_path && <img src={props.icon_5_path} className="w-10 h-10 sm:w-[60px] sm:h-[60px]" alt={props.icon_5_alt}/> }
                     </div>
 
                     <div className="space-x-4 lg:space-x-6 mb-8">
